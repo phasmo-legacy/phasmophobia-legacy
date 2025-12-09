@@ -1,0 +1,22 @@
+# Robots.txt for Phasmophobia Legacy
+# https://phasmo-legacy.github.io/
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://phasmo-legacy.github.io/sitemap.xml
+
+# Yandex specific
+User-agent: Yandex
+Allow: /
+Crawl-delay: 1
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+
+# Disallow assets that don't need indexing
+Disallow: /assets/downloads/
+Disallow: /assets/css/
+Disallow: /assets/js/
